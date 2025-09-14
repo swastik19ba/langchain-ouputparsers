@@ -1,2 +1,9 @@
  Output parsers in langchain to convert raw LLM responses Into structured format like JSON,
  CSV, pydantic models and more.They  ensure consistency validation and ease of use in applications
+
+
+ structuredoutput parsers is an output parser in langchain that helps to extract JSON data 
+ from LLM responses based on predefined field schemas.It works by defining a list of fields
+ that the model should return ensuring the output follows a structured format
+Disadvantage-No  Data validation
+
